@@ -14,7 +14,12 @@ public class DifferentBrowserLaunch {
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
 			driver.get("https://www.facebook.com/");
+
+
 		
+			driver = new FireFoxDriver();
+			driver.manage().window().maximize();
+			driver.get("https://www.facebook.com/");
 			
 		
 		
